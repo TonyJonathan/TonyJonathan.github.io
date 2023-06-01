@@ -93,7 +93,7 @@ header > img:nth-child(6){
     
 }
 
-#line{
+.line{
     width: 73px;
     border-top: 3px solid var(--color-orange);
     margin: 0;
