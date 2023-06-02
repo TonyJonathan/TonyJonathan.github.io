@@ -4,6 +4,8 @@
     --color-grey : #BFBFBF;
     --color-orange: #F87F28;
     --color-white: #fff;
+    --color-dark-grey: rgba(173, 181, 189, 0.16);
+
 }
 
 
@@ -329,6 +331,7 @@ h2{
     margin: 0;
     margin-top: 324px;
     margin-left: 375px;
+    
 }
 
 #wrapperfolio > h2, #wrapperfolio > .line, #wrapperfolio > .little{
@@ -392,4 +395,117 @@ h2{
     margin-top: 97.21px;
     margin-left: 7px;
 }
+
+#experience > h2{
+    width: 249px;
+    margin: 0;
+    margin-top: 35px;
+   
+}
+#experience > .line{
+    margin: 0;
+    margin-top: 16px;
+}
+#experience > .little:nth-child(3){
+    width: 280px;
+    margin: 0;
+    margin-top: 31px;
+}
+#experience > .button > a {
+    padding: 12px 32px 11px 32px;
+    width: 194px;
+}
+#experience > .button{
+    margin: 0;
+    margin-top: 29px;
+    
+}
+
+.date{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: var(--color-white);
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 7px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+}
+
+.medium{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--color-white);
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 36px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.cv > img{
+    margin: 0;
+    margin-top: 7px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.cv > .little{
+    width: 326px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.cv{
+
+    display: grid;
+    grid-template-columns: 51px 323px 373px;
+    grid-template-rows: 135px 1px;
+    width: 747px;
+    border-bottom: 1px solid var(--color-dark-grey);
+ 
+    
+}
+
+#experience{
+    width: 365px;
+    margin: 0;
+}
+
+#containercv{
+    width: 747px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#containerexperience{
+    display: flex;
+    margin: 0;
+    margin-top: 202px;
+    margin-left: 390px;
+}
+
+#containercv > .cv:first-child{
+    margin-top: 0px;
+}
+
+#containercv > .cv:nth-child(2){
+    margin-top: 35px;
+}
+
+#containercv > .cv:nth-child(3){
+    margin-top: 33px;
 }
