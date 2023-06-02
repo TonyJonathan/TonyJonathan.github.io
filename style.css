@@ -38,6 +38,8 @@ header > p:first-child{
     font-size: 16px;
     line-height: 24px;
     color: var(--color-white);
+    margin: 0;
+    
 }
 
 header > img:nth-child(2){
@@ -193,6 +195,7 @@ h1{
     width: 1036px;
     text-align: center;
     margin-top: 214px;
+    margin-left: 56.4px;
 }
 
 #client > p{
@@ -246,3 +249,77 @@ h1{
     margin-left: 32.06px;
     margin-bottom: 45.5px;
 }
+
+#technique > p:nth-child(2) , #gestion > :nth-child(2) , #management > :nth-child(2) , #langues > :nth-child(2){
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: var(--color-white);
+    margin: 0;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    
+}
+
+#skill{
+    display: flex;
+    margin: 0;
+    margin-top: 116px;
+    margin-left: 403px;
+
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    color: var(--color-white);
+    margin: 0;
+}
+
+#competences > h2{
+    
+    width: 249px;
+    margin: 0;
+    margin-top: 212px;
+    margin-left: 809px;
+    
+  
+}
+
+#competences > .line{
+    margin-top: 9px;
+    margin-left: 894px;
+}
+
+#captivate > p{
+    margin: 0;
+}
+
+#captivate{
+    text-align: center;
+    margin-top: 36px;
+}
+
+#technique{
+    width: 194px;
+}
+
+#gestion{
+    width: 176px;
+    margin-left: 93px;
+}
+
+#management{
+    width: 191px;
+    margin-left: 112px;
+}
+
+#langues{
+    width: 195px;
+    margin-left: 97px;
+}
+
+
