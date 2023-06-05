@@ -254,7 +254,7 @@ h1{
     margin-bottom: 45.5px;
 }
 
-#technique > p:nth-child(2) , #gestion > :nth-child(2) , #management > :nth-child(2) , #langues > :nth-child(2){
+h4{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -423,7 +423,7 @@ h2{
     
 }
 
-.date{
+h6{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -439,7 +439,7 @@ h2{
 
 }
 
-.medium{
+h3{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
