@@ -6,6 +6,7 @@
     --color-white: #fff;
     --color-dark-gray: rgba(173, 181, 189, 0.16);
     --color-dark-gray2: #2C2C2C;
+    --color-dark-gray3: #232323;
 
 
 }
@@ -168,6 +169,7 @@ h1{
     background-color: var(--color-red);
     color : var(--color-white);
     display: inline-block;
+    text-align: center;
   
 }
 
@@ -422,14 +424,17 @@ h2{
     margin: 0;
     margin-top: 31px;
 }
+
 #experience > .button > a {
+    font-family: 'Inter', sans-serif;
     padding: 12px 32px 11px 32px;
     width: 194px;
+    text-align: center;
 }
+
 #experience > .button{
     margin: 0;
     margin-top: 29px;
-    
 }
 
 h6{
@@ -930,6 +935,57 @@ align-items: center;
     grid-column-end: 2;
 }
 
+#contact > .titreinfo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-orange);
+    letter-spacing: -1%;
+    margin: 0;
+}
+
+#contact > .info{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-white);
+    letter-spacing: -1%;
+    margin: 0;
+}
+
+#contact > .textcontour{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.8px;
+    color: var(--color-white);
+    background-color: var(--color-dark-gray3);
+    margin: 0;
+}
+
+#contact > h2{
+    color: var(--color-gray);
+}
+
+#contact > .button > a {
+    font-family: 'Inter', sans-serif;
+    padding: 11px 32px 12px 32px;
+    width: 165px;
+    text-align: center;
+}
+
+#contact > .button{
+    margin: 0;
+    margin-top: 29px;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 42px 528px 540px;
+    grid-template-rows: 465px 47px;
+}
 
 
 
