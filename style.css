@@ -702,3 +702,114 @@ align-items: center;
 }
 
 
+
+#temoignages{
+    display: grid;
+    grid-template-columns: 170px 677px;
+    grid-template-rows: 143px 134px 72.4px;
+    margin: 0;
+    margin-top: 258px;
+    margin-left: 502px;
+}
+
+#temoignages > h2{
+    width: 419px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    margin-left: 49px;
+    text-align: center;
+}
+
+#temoignages > img:last-child{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+
+#temoignages > img:nth-child(7){
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: 0;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+
+
+#temoignages > p:nth-child(3){
+    width: 677px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 35.7px;
+    color: var(--color-white);
+    font-style: italic;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    
+}
+
+#temoignages > p:nth-child(5){
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: var(--color-white);
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    margin-top: 20.36px;
+    
+}
+
+#temoignages > p:nth-child(6){
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.4px;
+    color: var(--color-white);
+    letter-spacing: 0.5px;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    margin-top: 51.36px;
+}
+
+#temoignages > .line:nth-child(2){
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    margin-top: 73px;
+    margin-left: 222px;
+}
+
+#temoignages > .line:nth-child(4){
+    width: 38px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    margin-top: 132px;
+}
+
+
+
+
