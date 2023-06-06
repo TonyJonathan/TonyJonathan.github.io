@@ -14,9 +14,9 @@
 
     <header>
         <p>Olivier.</p>
-        <img src="picture/tel.svg" width="18.33" height="18.18" alt="mail">
+        <img src="picture/tel.svg" width="18.33" height="18.18" alt="phone">
         <p class="little">+98 76-54-1423</p>
-        <img src="picture/mail.svg" width="22" height="22" alt="phone">
+        <img src="picture/mail.svg" width="22" height="22" alt="mail">
         <p class="little">olivier.depiesse@gmail.com</p>
         <img src="picture/menu.svg" width="24" height="20" alt="3 lines aligned horizontally">
     </header>
@@ -44,14 +44,21 @@
             <p>clients</p>
             <div id="company">
                
-                <img src="picture/sega.svg" width="109" height="36,36" alt="sega written in blue and white">
-                <img src="picture/ubisoft.svg" width="73,45" height="67,5" alt="ubisoft written in white 
-                below a spiral ">
-                <img src="picture/microsoft.svg" width="205,31" height="92,02" alt="Microsoft written to the right of a square composed of four squares of yellow, red, green, and blue">
-                <img src="picture/electronicarts.svg" width="167,11" height="94" alt="Electronic Arts written 
-                to the right of a circle where it is marked EA in capital letters in black on a red background">
-                <img src="picture/capcom.svg" width="131,2" height="24,02" alt="capcom written in yellow with a blue border">
-                <img src="picture/bethesda.svg" width="158,57" height="22,99" alt="Bethesda written in white to the right of a white square">
+                <img srcset="picture/segamini.svg 112w, picture/sega.svg 110w"
+                    sizes="(max-width: 374.99px) 112px, 110px"
+                    src="picture/sega.svg" alt="sega written in blue and white" >
+                <img srcset="picture/ubisoftmini.svg 84w, picture/ubisoft.svg 75w"
+                    sizes="(max-width: 374.99px) 84px, 75px"
+                    src="picture/ubisoft.svg" alt="ubisoft written in white below a spiral" >
+                <img srcset="picture/microsoftmini.svg 188w, picture/microsoft.svg 206w"
+                    sizes="(max-width: 374.99px) 188px, 206px"
+                    src="picture/microsoft.svg" alt="Microsoft written to the right of a square composed of four squares of yellow, red, green, and blue" >
+                <img srcset="picture/electronicartsmini.svg 153w, picture/electronicarts.svg 168w"
+                    sizes="(max-width: 374.99px) 153px, 168px"
+                    src="picture/electronicarts.svg" alt="Electronic Arts written to the right of a circle where it is marked EA in capital letters in black on a red background" >
+
+                <img src="picture/capcom.svg" width="132" height="24,02" alt="capcom written in yellow with a blue border">
+                <img src="picture/bethesda.svg" width="160" height="22,99" alt="Bethesda written in white to the right of a white square">
         </div>
         </div>
     </div>
@@ -190,7 +197,7 @@
     <h6>19 août 2014</h6>
     <h3>OMOTE / REAL-TIME FACE TRACKING & PROJECTION MAPPING</h3>
     <p class="paragraph">LIVE INSTALLATION ON 2014/8/28connpass.com/event/8112/ PROJECT MEMBERS NOBUMICHI ASAI (PLANNER / PRODUCER / TECHNICAL...)</p>
-    <h6>8 novembre 2013</h6>
+    <h6>08 novembre 2013</h6>
     <h3>Forest</h3>
     <p class="paragraph">Movie : Takeshi Tsunehashi d-apartment.net - The post Forest first appeared on Yop Concept.</p>
     <h6>18 octobre 2013</h6>
@@ -215,12 +222,11 @@
     <div class="contour"></div>
     <div class="contour"></div>
     <div class="contour"></div>
-    <p class="textcontour">Votre nom</p>
-    <p class="textcontour">Votre email</p>
-    <p class="textcontour">message</p>
+    <p class="textcontour">Votre nom :</p>
+    <p class="textcontour">Votre email :</p>
+    <p class="textcontour">Message :</p>
     <p class="button"><a href="/">Envoyer</a></p>
 </div>
-
 
 </div>
 </body>
