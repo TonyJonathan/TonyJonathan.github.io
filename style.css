@@ -310,14 +310,15 @@ h2{
     margin-left: 894px;
 }
 
-#captivate > p{
+#competences > p{
+    width: 342px;
     margin: 0;
+    margin-left: 762px;
+    margin-top: 36px;
+    text-align: center;
 }
 
-#captivate{
-    text-align: center;
-    margin-top: 36px;
-}
+
 
 #technique{
     width: 194px;
