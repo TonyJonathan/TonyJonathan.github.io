@@ -1236,6 +1236,27 @@ align-items: center;
         margin-left: 190.14px;
     }
 
+    #competences, #competences > h2, #competences > .line, #competences > p{
+        margin:0;
+    }
+
+    #competences {
+        margin-top: 72.36px;
+        margin-left: 27.85px;
+    }
+
+    #competences > .line{
+        margin-top: 9px;
+        margin-left: 5.15px;
+    }
+
+    #competences > p{
+        width: 312px;
+        margin-top: 20.2px;
+        margin-left: 9.85px;
+        text-align: left;
+    }
+
 
 
 
