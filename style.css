@@ -427,16 +427,18 @@ h2{
     margin-top: 31px;
 }
 
-#experience > .button > a {
+#containerexperience > .button > a {
     font-family: 'Inter', sans-serif;
     padding: 12px 32px 11px 32px;
     width: 194px;
     text-align: center;
 }
 
-#experience > .button{
+#containerexperience > .button{
     margin: 0;
-    margin-top: 29px;
+    margin-top: 285px;
+    grid-row-start: 1;
+    grid-column-start: 1;
 }
 
 h6{
@@ -502,19 +504,24 @@ h3{
 #experience{
     width: 365px;
     margin: 0;
+    grid-column-start: 1;
+    grid-row-start: 1;
+
 }
 
 #containercv{
     width: 747px;
     margin: 0;
     box-sizing: border-box;
+    grid-column-start: 2;
 }
 
 #containerexperience{
-    display: flex;
+    display: grid;
     margin: 0;
     margin-top: 202px;
     margin-left: 390px;
+    grid-template-columns: 365px 748px;
 }
 
 #containercv > .cv:first-child{
@@ -1311,7 +1318,16 @@ align-items: center;
         margin-top: 28.18px;
     }
 
+    #containerexperience{
+        display: block;
+        margin: 0;
+        margin-top: 83.35px;
+        margin-left: 30px;
+    }
 
+    #experience > h2 {
+        margin: 0;
+    }
     
 
 
