@@ -1284,8 +1284,14 @@ align-items: center;
         margin-left: 29.51px;
     }
 
-    #wrapperfolio > img, #wrapperfolio > .line, #wrapperfolio > .paragraph, #wrapperfolio > img:nth-child(5), #wrapperfolio > img:nth-child(7){
+    #wrapperfolio > img, #wrapperfolio > .line, #wrapperfolio > .paragraph, #wrapperfolio > img:nth-child(5), #wrapperfolio > img:nth-child(7), #wrapperfolio > img:nth-child(8), #wrapperfolio > img:nth-child(9){
         margin: 0;
+        margin-top: 28.18px;
+    }
+
+
+    #wrapperfolio > img:nth-child(4) {
+        margin-top: 41.08px;
     }
 
     #wrapperfolio > h2, #wrapperfolio > .line, #wrapperfolio > .paragraph{
@@ -1294,7 +1300,7 @@ align-items: center;
 
     #wrapperfolio > .line{
         margin-top: 1px;
-        margin-left: 1px;
+        margin-left: 10px;
     }
 
     #wrapperfolio > .paragraph{
@@ -1304,9 +1310,6 @@ align-items: center;
     #wrapperfolio > img{
         margin-top: 28.18px;
     }
-
-
-
 
 
     
