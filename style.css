@@ -1328,6 +1328,50 @@ align-items: center;
     #experience > h2 {
         margin: 0;
     }
+
+    #containercv{
+        margin-top: 47px;
+    }
+
+    #containerexperience > .button{
+        width: 194px;
+        margin-top: 47px;
+    }
+
+    .cv{
+        border-bottom: none;
+    }
+
+    .cv > img, .cv > h6, .cv > h3 {
+        margin: 0;
+    }
+
+    #containercv > .cv:first-child{
+        margin: 0;
+        grid-template-rows: 109px;
+    }
+
+    #containercv > .cv:nth-child(2) {
+        grid-template-rows: 109px;
+        margin: 0;
+    }
+    
+    #containercv > .cv:nth-child(3) {
+        margin: 0;
+        grid-template-rows: 59px;
+    }
+
+    .cv > h6 {
+        margin-top: 3px;
+    }
+
+    .cv > h3 {
+        margin-top: 33px;
+    }
+
+
+
+
     
 
 
