@@ -1369,6 +1369,42 @@ align-items: center;
         margin-top: 33px;
     }
 
+    #temoignages{
+        display: block;
+        margin: 0;
+        margin-top: 60px;
+        margin-left: 32px;
+    }
+
+    #temoignages > h2{
+        width: 240px;
+        margin: 0;
+        text-align: left;
+    }
+
+    #temoignages > .line:nth-child(2){
+        margin: 0;
+        margin-top: 14px;
+        margin-left: 3px;
+    }
+
+    #temoignages > p:nth-child(3){
+        width: 299.5px;
+        margin: 0;
+        margin-top: 39px;
+        margin-left: 8px;
+    }
+
+    #temoignages > p:nth-child(5) {
+        margin-top: 31px;
+        margin-left: 8px;
+    }
+
+    #temoignages > p:nth-child(6) {
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+
 
 
 
