@@ -1133,6 +1133,13 @@ align-items: center;
         display: none;
     }
 
+    #wrapper1, #competences, #competences > h2, #competences > .line, #competences > p, #skill, #skill > #technique, #skill > #management, #skill > #langues, #skill > #gestion, #wrapperfolio,  #wrapperfolio > img, #wrapperfolio > .line, #wrapperfolio > .paragraph, #wrapperfolio > img:nth-child(5), #wrapperfolio > img:nth-child(7), #wrapperfolio > img:nth-child(8), #wrapperfolio > img:nth-child(9), #containerexperience,  #experience > h2, .cv > img, .cv > h6, .cv > h3, #containercv > .cv:first-child,  #containercv > .cv:nth-child(2), #containercv > .cv:nth-child(3), #temoignages, #temoignages > .line:nth-child(2), #temoignages > p:nth-child(3),  #actualites > .paragraph, #contact > .contour:nth-child(15){
+        margin: 0;
+    }
+
+
+
+
     body{
         background-image: url(picture/responsive.png);
         margin: 0;
@@ -1147,7 +1154,6 @@ align-items: center;
     #wrapper1{
         width: 375px;
         display: block;
-        margin: 0;
         margin-top: 58.23px;
       
     }
@@ -1163,7 +1169,6 @@ align-items: center;
     #fullstack > *, #company > *, #client, #flex > .button{
         grid-row-start: 1;
         grid-column-start: 1;
-        margin: 0;
     }
 
 
@@ -1243,9 +1248,6 @@ align-items: center;
         margin-left: 190.14px;
     }
 
-    #competences, #competences > h2, #competences > .line, #competences > p{
-        margin:0;
-    }
 
     #competences {
         margin-top: 61px;
