@@ -12,23 +12,19 @@
 
 }
 
+
 body{
-    background-image: url(picture/Geeknius\ Dark.png);
+    background-image: url(picture/geeknius-dark.webp);
     margin: 0;
     width: 1860px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    
 }
-
-
-header, header > *, .paragraph, #fullstack, .line, h1, .button > a, #fullstack > *, #flex > .button, #flex > .button:last-child > a, #wrapper1, #client > p, #company > *, h4, #skill, h2, #competences > p, #wrapperfolio, #wrapperfolio > img:nth-child(4), #wrapperfolio > img:nth-child(5),  #wrapperfolio > img:nth-child(7), #wrapperfolio > img:nth-child(9),  #wrapperfolio > .line,  #wrapperfolio > .paragraph, #experience > h2, #experience > .line, #experience > .paragraph:nth-child(3), #containerexperience > .button, h6, h3, .cv > img, #experience, #containercv, #containerexperience, .textblock, .buttonblock, .textblock, #temoignages, #temoignages > h2, #temoignages > img:nth-child(7), #temoignages > p:nth-child(3), #temoignages > p:nth-child(5), #temoignages > p:nth-child(6), #temoignages > .line:nth-child(2), #temoignages > .line:nth-child(4), #actualites > h2, #actualites > h6, #actualites > h3, #actualites > .line, #actualites > .paragraph, #contact > .titreinfo, #contact > .info, #contact > .textcontour, #contact > h2, #contact > .info:nth-child(12), #contact > .paragraph, #contact > .contour, #contact > h6, #contact > .button, #contact > .contour:nth-child(14){
-    margin: 0;
-}
-
-
 
 header{
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 header > p:first-child{
@@ -37,6 +33,7 @@ header > p:first-child{
     font-size: 32px;
     line-height: 2.25rem;
     color: var(--color-white);
+    margin: 0;
     margin-top: 22px;
     margin-left: 62px;
 }
@@ -48,6 +45,7 @@ header > p:first-child{
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--color-white);
+    margin: 0;
 }
 
 .paragraph{
@@ -60,26 +58,31 @@ header > p:first-child{
 }
 
 header > img:nth-child(2){
+    margin: 0;
     margin-top: 31px;
     margin-left: 97px;
 }
 
 header > p:nth-child(3){
+    margin: 0;
     margin-top: 30px;
     margin-left: 7px;
 }
 
 header > img:nth-child(4){
+    margin: 0;
     margin-top: 33px;
     margin-left: 73px;
 }
 
 header > p:nth-child(5){
+    margin: 0;
     margin-top: 30px;
     margin-left: 14px;
 }
 
 header > img:nth-child(6){
+    margin: 0;
     margin-left: 1033px;
 }
 
@@ -138,14 +141,14 @@ h1{
     margin-left: 2px;
 }
 
-#fullstack > .paragraph:nth-child(5){
+#fullstack > .little:nth-child(5){
     width: 441px;
     margin: 0;
     margin-top: 16px;
     margin-left: 5px;
 }
 
-#fullstack > .paragraph:nth-child(6){
+#fullstack > .little:nth-child(6){
     margin: 0;
     margin-top: 24px;
     margin-left: 5px;
@@ -1138,7 +1141,7 @@ align-items: center;
 
 
     body{
-        background-image: url(picture/responsive.png);
+        background-image: url(picture/responsive.webp);
         margin: 0;
         width: 375px;
         background-repeat: no-repeat;
