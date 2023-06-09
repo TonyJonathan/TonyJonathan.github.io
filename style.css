@@ -31,7 +31,7 @@ header > p:first-child{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 32px;
-    line-height: 36px;
+    line-height: 2.25rem;
     color: var(--color-white);
     margin: 0;
     margin-top: 22px;
@@ -42,8 +42,8 @@ header > p:first-child{
     width: 441px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: var(--color-white);
     margin: 0;
 }
@@ -51,8 +51,8 @@ header > p:first-child{
 .paragraph{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     color: var(--color-white);
     margin: 0;
 }
@@ -1440,10 +1440,10 @@ align-items: center;
 
     #contact{
         display: grid;
-        grid-template-columns: 42px 311px;
+        grid-template-columns: 46.75px 311px;
         grid-template-rows: 365px 744.5px;
         margin-top: 61.18px;
-        margin-left: 34.04px;
+        margin-left: 29.29px;
         margin-bottom: 136px;
     }
 
@@ -1505,12 +1505,13 @@ align-items: center;
     #contact > .info:nth-child(12){
         width: 277px;
         margin-top: 41.44px;
-        margin-left: 2px;
+        margin-left: 6.5px;
     }
 
     #contact > .paragraph:nth-child(13){
         width: 281.5px;
         margin-top: 159px;
+        margin-left: 6.5px;
     }
 
     #contact > .contour:nth-child(14){
@@ -1535,9 +1536,9 @@ align-items: center;
     }
 
     #contact > .textcontour:nth-child(18){
-        width: 73px;
+        width: 78px;
         margin-top: 407.37px;
-        margin-left: 21.32px;
+        margin-left: 15px;
     }
     
     #contact > .textcontour:nth-child(19){
@@ -1548,10 +1549,9 @@ align-items: center;
     #contact > .button{
         margin-top: 694.82px;
     }
-    
-    
-    
 
+    #contact > h2, #contact > img{
+        margin-left: 4.75px;
+    }
 
-    
 }
