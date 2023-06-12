@@ -1082,7 +1082,7 @@ h3{
 }
 
 
-@media (max-width: 374.99px) {
+@media (max-width: 375px) {
 
     header > img:nth-child(2), header > .little, header > img:nth-child(4), #olivier > img:first-child, .cv > .paragraph, #competences2, #temoignages > .line:nth-child(4), #temoignages > img, header > img:nth-child(6), #contact > h6{
         display: none;
