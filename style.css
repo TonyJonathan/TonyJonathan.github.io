@@ -1281,23 +1281,28 @@ h3{
     }
 
     #containerexperience{
+        width: 300px;
         display: block;
         margin-top: 3.8125rem;
         margin-left: 1.875rem;
     }
 
     #containercv{
-        width: 345px;
+        width: 300px;
         margin-top: 2.9375rem;
     }
 
     #containerexperience > .button{
-        width: 194px;
+        width: 12.125rem;
         margin-top: 2.9375rem;
     }
 
+    #experience{
+        width: 250px;
+    }
+
     .cv{
-        width: 345px;
+        width: 300px;
         border-bottom: none;
         margin: 0;
     }
@@ -1315,10 +1320,12 @@ h3{
     }
 
     .cv > h6 {
+        width: 250px;
         margin-top: 0.1875rem;
     }
 
     .cv > h3 {
+        width : 250px;
         margin-top: 2.0625rem;
     }
 
@@ -1385,6 +1392,7 @@ h3{
     }
 
     #contact{
+        width: 340px;
         display: grid;
         grid-template-columns: 2.9219rem 19.4375rem;
         grid-template-rows: 22.8125rem 46.5313rem;
@@ -1404,6 +1412,14 @@ h3{
     #contact > h2{
         grid-column-end: 1;
         margin-top: 0rem;
+    }
+    
+    #contact > .titreinfo{
+        width: 250px;
+    }
+
+    #contact > .info{
+        width: 250px;
     }
 
     #contact > img:nth-child(2){
