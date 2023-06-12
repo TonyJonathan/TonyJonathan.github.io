@@ -10,10 +10,15 @@
     --color-dark-gray3: #232323;
 }
 
-body{
+#section{
+    max-width: 1860px;
+    margin: 0 auto;
     background-image: url(picture/geeknius-dark.webp);
+}
+
+body{
+    background-color: var(--color-dark-gray3);
     margin: 0;
-    width: 1860px;
     background-repeat: no-repeat;
 }
 
@@ -149,7 +154,7 @@ h1{
 #fullstack > .little:nth-child(6){
     margin: 0;
     margin-top: 1.5rem;
-    margin-left: 0.3125rem;
+    margin-left: 5px;
 }
 
 .button > a {
@@ -1092,11 +1097,19 @@ h3{
         margin: 0;
     }
 
+    #section{
+        background-image: url(picture/responsive.webp);
+    }
+
     body{
         background-image: url(picture/responsive.webp);
         margin: 0;
-        width: 375px;
+       
         background-repeat: no-repeat;
+    }
+
+    header{
+        width: 100px;
     }
 
     header > p:first-child{
@@ -1145,7 +1158,9 @@ h3{
     }
 
     #fullstack > .little:nth-child(6){
-        margin-top: 21rem;
+        margin-top: 336px;
+        width: 315px;
+
     }
 
     #flex {
@@ -1272,6 +1287,7 @@ h3{
     }
 
     #containercv{
+        width: 345px;
         margin-top: 2.9375rem;
     }
 
@@ -1281,7 +1297,9 @@ h3{
     }
 
     .cv{
+        width: 345px;
         border-bottom: none;
+        margin: 0;
     }
 
     #containercv > .cv:first-child{
