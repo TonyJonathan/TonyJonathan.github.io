@@ -11,7 +11,7 @@
 }
 
 #section{
-    max-width: 1860px;
+    width: 1860px;
     margin: 0 127.222px;
     background-image: url(picture/geeknius-dark.webp);
 }
@@ -1100,6 +1100,8 @@ h3{
 
     #section{
         background-image: url(picture/responsive.webp);
+        width: 375px;
+        margin: 0;
     }
 
     body{
