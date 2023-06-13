@@ -66,6 +66,7 @@ header > img:nth-child(2){
 
 header > p:nth-child(3){
     width: 171px;
+    min-width: 171px;
     margin: 0;
     margin-top: 1.875rem;
     margin-left: 0.4375rem;
@@ -1087,7 +1088,7 @@ h3{
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 374.99px) {
 
     header > img:nth-child(2), header > .little, header > img:nth-child(4), #olivier > img:first-child, .cv > .paragraph, #competences2, #temoignages > .line:nth-child(4), #temoignages > img, header > img:nth-child(6), #contact > .dates{
         display: none;
